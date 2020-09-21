@@ -1,0 +1,11 @@
+header{
+    background-image: linear-gradient(to right, #ffbc00, #9bd54f, #22d9a4, #00d1e0, #79c1ed);
+    width: 100%;
+}
+section{
+    background-image: linear-gradient(to right, #f1e83e, #a5f78c, #7af8d1, #96f0f5, #cbe4f1);
+    width: 100%;
+} 
+li:hover{
+    background:#F7C947;
+}
