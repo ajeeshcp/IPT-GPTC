@@ -1,11 +1,60 @@
+.fix{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 header{
     background-image: linear-gradient(to right, #ffbc00, #9bd54f, #22d9a4, #00d1e0, #79c1ed);
     width: 100%;
 }
-section{
+.main-nav{
     background-image: linear-gradient(to right, #f1e83e, #a5f78c, #7af8d1, #96f0f5, #cbe4f1);
     width: 100%;
 } 
 li:hover{
     background:#F7C947;
+}
+.dropbtn {
+    border: none;
+    background: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    
+    display: block;
+    
+  }
+  
+  .dropdown-content a:hover {background:#F7C947;}
+  
+  .dropdown:hover .dropdown-content {display: block;background-image: linear-gradient(to right, #f1e83e, #a5f78c, #7af8d1, #96f0f5, #cbe4f1);}
+  
+  .dropdown:hover .dropbtn {background-color:#F7C947 ;}
+.about{
+    
+    background-color:#f0f1f2;
+}
+.card:hover{
+  transform: scale(1.1);
+  transition: transform .2s; 
+}
+p{
+  font-style: italic;
 }
