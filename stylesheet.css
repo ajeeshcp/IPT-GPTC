@@ -54,7 +54,12 @@ li:hover{
 .card:hover{
   transform: scale(1.1);
   transition: transform .2s; 
+  border-color: #a5f78c;
+  border-width: 2px;
 }
 p{
   font-style: italic;
+}
+footer{
+  background-image: linear-gradient(to right, #ffbc00, #9bd54f, #22d9a4, #00d1e0, #79c1ed);
 }
